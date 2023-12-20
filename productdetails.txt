@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Details</title>
+<link rel="stylesheet" href="productdetailstyle.css">
+</head>
+<body>
+<h1 class="productdetails">Product Details</h1><hr><br/>
+<table
+<tr>
+<td width="450px"><img src="wallpaper.jpg" height="345px" width="345px" class="photo"/></td>
+<td align="left"><h2>Madhubani Wall Art and Painting</h2><br/>
+<h3>Rs 2500\-</h3><br/>
+<select>
+<option>Quantity</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select><br/><br/>
+<button id="btn" onclick="toggle()">Product Details</button>
+<div class="buttondetails">
+The wall paintings of Madhubani can be divided into figurate<br/>
+and non-figurative wall paintings.The former is more colourful and richer in symbols.<br/>
+The Kohbar has the most illustrious wall drawings.<br/>
+It is of three types: Kohbar of north Bihar/ madhubani style<br/>
+Kohbar of eastern Uttar Pradesh order drawings with creeper motifs.
+</div><br/>
+<a href="wood.html"><button class="buttons">Buy the Product</button></a><br/><br/>
+<a href="productcategory.html"><button class="buttons">Go Back</button></a>
+</td>
+</tr>
+</table>
+<script>
+function toggle()
+{var y=document.querySelector(".buttondetails");
+if(y.style.display=="none")
+{y.style.display="block";
+}
+else
+{y.style.display="none";
+}
+}
+</script>
+</body>
+</html>

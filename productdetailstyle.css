@@ -1,0 +1,25 @@
+body
+{background-image:url('productbackgroundpicture.jpg');
+background-size:1535px 1000px;
+}
+.productdetails
+{text-align:center;
+color:white;
+}
+#btn
+{height:45px;
+width:100px;
+background-color:yellow;
+border:1px solid black;
+border-radius:11px;
+}
+.buttons
+{height:45px;
+border:1px solid black;
+background-color:yellow;
+border-radius:11px;
+width:400px;
+}
+.photo
+{border:2px solid black;
+}

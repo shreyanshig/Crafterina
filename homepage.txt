@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="homepagecss.css">
+<title>Home Page</title>
+</head>
+<body>
+<header>
+<table width="100%">
+<tr>
+<td width="15%"><img src="crafterinalogo.jpg"/></td>
+<td><input class="navsearchbar" size="150" type="text" placeholder="search any handicraft you would like to buy"/></td>
+<td style="align:center; font-size:20px;"><a href="login.html" class="navlinks"><pre>Sign in    Cart</pre></a></td>
+</tr>
+</table>
+<br/>
+<table width="100%">
+<tr>
+<td align="center" style="font-size:20px;"><a class="navlinks" href="hoempage.html">Home</a></td>
+<td align="center" style="font-size:20px;"><a class="navlinks" href="Wallpaper.html">Wallpaper</a></th>
+<td align="center" style="font-size:20px;"><a href="Jewellery.html" class="navlinks">Jewellery</a></td>
+<td align="center" style="font-size:20px;"><a href="pots.html" class="navlinks">Vases and Pots</a></td>
+<td align="center" style="font-size:20px;"><a href="bags.html" class="navlinks">Baskets and Bags</a></td>
+<td align="center" style="font-size:20px;"><select width="45px">
+<option>Profile</option>
+<option>About</option>
+<option>Contact Us</option>
+<option>Policies</option>
+</select>
+</td>
+</tr>
+</table>
+</header>
+<br/>
+<div class="rounddiv">
+<br/>
+<br/>
+<table width="100%">
+<tr>
+<td align="center"><a href="wood.html"><img class="p" style="height:145px; width:145px;" src="crafterina1.png"/></a><br/>Wooden Craft</td>
+<td align="center"><a href="wood.html"><img class="q" class="roundiamges" src="wallpaper.png" style="height:145px; width:145px;"/></a><br/>Wallpapers</td>
+<td align="center"><a href="wood.html"><img class="r" class="roundiamges" src="crafterina3.png" style="height:145px; width:145px;"/></a><br/>Jewellery</td>
+<td align="center"><a href="wood.html"><img class="x" class="roundiamges" src="crafterina4.png" style="height:145px; width:145px;"/></a><br/>Vases and Pots</td>
+</tr>
+</table>
+<br/>
+<br/>
+</div>
+<table id="seller" width="100%">
+<tr>
+<td align="center"><h3>Are You A Seller?</h3>
+<h3>Click the button Below</h3>
+<a href="adminlogin.html"><img class="sellerphoto" style="border-radius:30px;" src="pngbutton.png"/ height="50px" width="150px"/?</a></td>
+</tr>
+</table>
+<br/>
+<table width="100%">
+<tr>
+<td class="decore" width="35%"><h3>The Home Decore Shop</h3><br/>
+Shop these Unique Finds ---></td>
+</td>
+<td><a href="wood.html"><img class="squarephotos" src="bottle.jpg"/></a></td>
+<td><a href="wood.html"><img class="squarephotos" src="decore.jpg"/></a></td>
+<td><a href="wood.jpg"><img class="squarephotos" src="coloufull.jpg"/></a></td>
+</tr>
+</table>
+<br/>
+<table width="100%">
+<tr>
+<td><a href="wood.html"><img class="squarephotos" src="bags.jpg"/></a></td>
+<td><a href="wood.html"><img class="squarephotos" src="decore.jpg"/></a></td>
+<td><a href="wood.html"><img class="squarephotos" src="ketle.jpg"/></a></td>
+<td align="right" class="decore" width="35%"><h3>The Modern Handicraft Products</h3><br/>
+<---Those Who Like to Accessorize</td>
+</tr>
+</table>
+<br/>
+<table width="100%">
+<tr>
+<td class="decore" width="35%"><h3>Our Wood and Clay Edition</h3><br/>
+Decorative Products in Wooden Clay Touch---></td>
+</td>
+<td><a href="wood.html"><img class="squarephotos" src="bamboobaskets.jpg"/></a></td>
+<td><a href="wood.html"><img class="squarephotos" src="bamboodress.jpg"/></a></td>
+<td><a href="wood.jpg"><img class="squarephotos" src="claypots.jpg"/></a></td>
+</tr>
+</table>
+<br/>
+<footer class="helpofcrafterina">
+<br/>
+<table width="100%">
+<tr>
+<td align="center">Categories</td>
+<td align="center">Get in Touch</td>
+<td align="center">About Store</td>
+<td align="center">Help and Policies</td>
+</tr>
+</table>
+</body>
+</html>

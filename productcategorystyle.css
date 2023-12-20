@@ -1,0 +1,22 @@
+body
+{background-image:url('productcategorybg.jpg');
+}
+.wallart
+{color:white;
+text-align:center;
+font-size:50px;
+}
+.wallpapers
+{height:200px;
+width:200px;
+border:1px solid white;
+}
+.table1
+{background-color: rgba(79,195,247,0.5);
+}
+.table2
+{background-color:rgba(248,187,208,0.5);
+}
+.table3
+{background-color:rgba(80,209,24,0.5);
+}

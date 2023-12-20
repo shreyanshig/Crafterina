@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Category</title>
+<link rel="stylesheet" href="productcategorystyle.css">
+</head>
+<body>
+<h1 class="wallart">Wall Art</h1>
+<hr>
+<table width="75%">
+<tr class="table1"><p style="color:white;">Different Variety of Wall Arts and Paintings</p>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper1.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper2.jpg"/></a>
+</tr>
+<tr class="table2">
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper3.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper4.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper5.jpg"/></a>
+</tr>
+<tr class="table3">
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper6.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper7.jpg"/></a>
+<td align="center"><a href="productdetails.html"><img class="wallpapers" src="wallpaper8.jpeg"/></a>
+</tr>
+</table>
+</body>
+</html>

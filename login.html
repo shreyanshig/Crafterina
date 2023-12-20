@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration page</title>
+    <link rel="stylesheet" href="loginstyle.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+		<h3 style="color:white;">Do You Want to Login/Register as Admin</h3>
+		<a style="color:white;" class="loginbtn" href="adminlogin.html">Click</a><br/><br/>
+            <form class="register-form">
+                <input type="text" placeholder="Full name"/>
+                <input type="text" placeholder="User name"/>
+                <input type="Email" placeholder="Email"/>
+                <input type="text" placeholder="Password"/>
+                <button>Register</button>
+                <p class="message">Already Registered? <a href="#"> Login</a></p>
+            </form>
+            <form class="login-form">
+                <input type="text" placeholder="User name"/>
+                <input type="password" placeholder="password"/>
+                <a class="loginbtn" onclick="loginbtn()" href="homepage.html">Login</a>
+                <p class="message">Not Registered ? <a href="#"> Registerd</a></p>
+            </form>
+
+            
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js">
+
+    </script>
+    <script>
+        $('.message a') .click(function(){
+         $('form').animate({height: "toggle",opacity:"toggle"},"slow");
+        });
+	  function loginbtn()
+        {alert("You have been logged in Successfully,You may Buy any Handicraft");
+	  }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration page</title>
+    <link rel="stylesheet" href="adminstyle.css">
+</head>
+<body>
+<h1 style="color:white; text-align:center;">Enter your Product Details that needs to be Visible to The Buyers</h1>
+	      <h3 style="color:white; text-align:center;">Please Make Sure To Follow Community Guidlines and just do not Add anything voilating the regulations</h3>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+<select class="adminproduct">
+<option>Select Category of the product</option>
+<option>Wall Arts and Painting</option>
+<option>Clay Pots</option>
+<option>Bamboo Product</option>
+<option>Jewellery</option>
+<option>Wood Product</option>
+</select><br/>
+<input size="50" type="text" placeholder="Enter Name of the Product"/><br/>
+<input length="50" type="number" placeholder="Enter your Expected Price"/><br/>
+<input size="50" type="text" placeholder="Enter Seller Name"/><br/>
+<input size="50" type="number" placeholder="Enter Quantity of your Product"/><br/>
+<input type="file"/><br/>
+<input type="textarea" rows="3" cols="3" placeholder="Enter Description about your Product"/><br/>
+<input onclick="loginbtn()" type="submit"/>
+<input type="reset"/>
+</form>
+</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js">
+
+    </script>
+    <script>
+        $('.message a') .click(function(){
+         $('form').animate({height: "toggle",opacity:"toggle"},"slow");
+        });
+	  function loginbtn()
+        {alert("You Have Added your Product");
+	  }
+    </script>
+    
+</body>
+</html>
